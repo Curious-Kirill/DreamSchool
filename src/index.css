@@ -1,0 +1,342 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  
+  line-height: 1.5;
+  font-weight: 400;
+
+ 
+ color:#FFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@font-face{
+  font-family:"gotham";
+  src:url('./assets/fonts/gotham.ttf');
+}
+@font-face{
+  font-family:"gothamLight";
+  src:url('./assets/fonts/gothamLight.ttf');
+}
+
+
+@layer base {
+  li {
+    @apply font-[gotham];
+      @apply px-4;
+      @apply cursor-pointer
+  }
+}
+li{
+  font-size:20px;
+  line-height:normal;
+font-style: bold;
+font-weight: 400;
+line-height: normal;
+
+padding-right:50px;
+}
+.descr{
+  color:#FFF;
+  font-family: gotham;
+  font-size: 75px;
+font-style: normal;
+font-weight: 400;
+line-height: 1;
+}
+#dream{
+  color: #FFF;
+font-family: gothamLight;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.butt1{
+  padding: 0.5em 1.5em; 
+background-color: none;  color: #fff; 
+transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+display: inline-flex;
+padding: 20px 36px;
+justify-content: center;
+align-items: center;
+border: 1px solid #000;
+color: #000;
+font-family: gotham;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+
+  color: #FFF;
+font-family: gotham;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+
+.butt1:hover {
+color:black;
+background-color: white; /* Цвет фона */
+box-shadow: 0 0 0 2px #fff, 0 0 0 4px black; /* Тень в виде рамки */
+}
+#contcts{
+font-size:74px;
+}  
+.dream{
+  
+color: #000;
+font-family: gotham;
+font-size: 84px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+transform: rotate(-90deg);
+
+}
+
+.goals{
+  
+  color: #000;
+font-family: gotham;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 1;
+padding-bottom: 3rem;
+}
+.goals-text{
+  color: #000;
+font-family: gothamLight;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 1;
+
+}
+.advantages{
+
+  display: inline-flex;
+padding: 20px 36px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: 1px solid #000;
+color: #000;
+font-family: gotham;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.events{
+  color: #000;
+font-family: gotham;
+font-size: 84px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#openDay{
+  color: #FFF;
+font-family: gotham;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 1;
+}
+.phone{
+  color: #000;
+  font-family: gotham;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.number{
+  font-family: gothamLight;
+}
+#goals-text{
+  color: #FFF;
+font-family: gotham;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height:1.3;
+}
+.map{
+position: relative;
+
+padding-top:1rem;
+}
+#root{
+max-width:1920px;
+margin:0 auto;
+}
+.advantages{
+
+  
+padding: 0.5em 1.5em; 
+background-color: none;  color: #fff; 
+transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+display: inline-flex;
+padding: 20px 36px;
+justify-content: center;
+align-items: center;
+border: 1px solid #000;
+color: #000;
+font-family: gotham;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+
+}
+.advantages:hover {
+color:white;
+background-color: black; /* Цвет фона */
+box-shadow: 0 0 0 2px #fff, 0 0 0 4px black; /* Тень в виде рамки */
+}
+
+@media screen and (max-width:1500px){
+.dream{
+  margin-right:-100px;
+
+}
+.pros{
+
+left:10%;
+right:10%;
+}
+.goals{
+font-size:24px;
+
+
+}
+
+.goalsDiv{
+  width:120px;
+}
+.goalsDiv1{
+width:180px;
+}
+.goalsDiv2{
+margin-left:-50px;
+}
+.goalsCont{
+margin-left:200px;
+ width: fit-content;
+ gap:30%;
+ 
+  }
+.advantages{
+  font-size:16px;
+  padding: 15px 20px;
+}
+.goals-text{
+font-size:18px;
+width:200px;
+}
+.advDiv{
+padding-left:6rem;
+}
+.button1{
+padding-top:1rem;
+}
+
+.mainContainer{
+left:10%;
+}
+#contcts{
+margin-right:0px;
+font-size:65px;
+}
+.mainContainer{
+left:-1rem;
+}
+.phone{
+font-size:18px;
+padding-top:1.7rem;
+}
+.svg1{
+width:800px;
+left:-100px;
+}
+.svg1Div{
+left:10rem;
+}
+.svg2{
+width: 300px;
+}
+.butt1{
+padding-left:1.5rem;
+padding-right:1.5rem;
+font-size: 16px;
+
+}
+.butt1Div{
+padding-top:40px;
+}
+.mapDiv{
+padding-left:0px;
+padding-top:0px;
+}
+.map{
+height:300px;
+}
+}
+@media screen and (max-width:1145px){
+ 
+ .event{
+ height: 430px;
+
+ }
+li{
+font-size:15px;
+padding-right:20px;
+}
+.logo1{
+height:100px;
+}
+.descr{
+  font-size:40px;
+}
+#dream{
+  font-size:24px;
+}
+.butt1{
+  padding: 13px 26px;
+}
+.navbarDiv{
+padding-top:20px;
+}
+.homeDiv{
+margin-top:150px;
+}
+.goalsCont{
+margin-left:100px;
+}
+.dream{
+  font-size:70px;
+}
+.goals{
+  font-size:20px;
+}
+.goals-text{
+  font-size:14px;
+}
+.events{
+font-size:70px;
+}
+}
