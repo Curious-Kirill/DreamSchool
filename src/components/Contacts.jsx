@@ -8,7 +8,7 @@ const Contacts = () => {
       <div className='flex mainContainer relative top-[20%]'>
 
       <div id="contcts" className='dream mr-[10rem]  my-auto mx-0 relative box-border w-fit'>
-        <p class="contacts"  >
+        <p className="contacts"  >
           Контакты
         </p>
       </div>
