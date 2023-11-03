@@ -1,7 +1,7 @@
 import React from 'react'
 import LogoBlack from '../assets/LogoBlack.png'
 
-const footer = () => {
+const Footer = () => {
   return (
     <div className='h-[200px]  '>
       <div className=' flex max-w-6xl my-auto mx-0'>
@@ -19,4 +19,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer

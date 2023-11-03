@@ -5,7 +5,7 @@ import Dream from './components/Dream'
 import Events from './components/Events'
 import Contacts from './components/Contacts'
 import Goals from './components/Goals'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 
 function App() {
 
